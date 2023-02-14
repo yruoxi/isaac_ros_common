@@ -20,9 +20,4 @@ generate_messages(
                geometry_msgs
   )
 
-catkin_package(CATKIN_DEPENDS message_runtime)
-
-install(TARGETS ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-        LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-        RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-        )
+catkin_package()
