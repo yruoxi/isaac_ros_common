@@ -34,6 +34,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   msg/AprilTagDetectionArray.msg
   DEPENDENCIES geometry_msgs std_msgs
 )
+
+install(
+    FILES mapping_rules.yaml
+    DESTINATION share/${PROJECT_NAME}
+)
+
 ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)

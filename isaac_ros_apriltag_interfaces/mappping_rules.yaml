@@ -1,0 +1,10 @@
+-
+  ros1_package_name: 'isaac_ros_apriltag_interfaces'
+  ros2_package_name: 'isaac_ros_apriltag_interfaces'
+  ros1_message_name: 'AprilTagDetection'
+  ros2_message_name: 'AprilTagDetection'
+-
+  ros1_package_name: 'isaac_ros_apriltag_interfaces'
+  ros2_package_name: 'isaac_ros_apriltag_interfaces'
+  ros1_message_name: 'AprilTagDetectionArray'
+  ros2_message_name: 'AprilTagDetectionArray'
